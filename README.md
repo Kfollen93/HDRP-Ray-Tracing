@@ -8,7 +8,9 @@ While I am in the finishing stretch for a URP project that I have been working o
 ## How to Use
 You will need to be in a HDRP project with all of the DXR settings enabled. Once your project is set up for Ray Tracing, you can then create an empty GameObject and place the script on it. From there, it's simply a drag and drop of all the required components.
 <br>
-One of those required components is a Volume Profile. To utilize all of the Ray Tracing features, this Volume should include: Screen Space Global Illumination, Screen Space Reflection, and Screen Space Ambient Occlusion. An error will be thrown if one of those overrides are not included on the Volume; feel free to remove this requirement if you don't want it.
+One of those required components is a Volume Profile. To utilize all of the Ray Tracing features, this Volume should include: Screen Space Global Illumination, Screen Space Reflection, and Screen Space Ambient Occlusion. An error will be thrown if one of those overrides are not included on the Volume; feel free to remove this requirement if you don't want it. <br>
+<br>
+<img src="https://github.com/Kfollen93/HDRP-Ray-Tracing/blob/main/Gif/Settings.PNG"/>
 
 
 ## Additional Information
