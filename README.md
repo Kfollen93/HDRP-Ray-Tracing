@@ -10,7 +10,7 @@ You will need to be in a HDRP project with all of the DXR settings enabled (and 
 <br>
 One of those required components is a Volume Profile. To utilize all of the Ray Tracing features, this Volume should include: Screen Space Global Illumination, Screen Space Reflection, and Screen Space Ambient Occlusion. An error will be thrown if one of those overrides are not included on the Volume; feel free to remove this requirement if you don't want it. <br>
 <br>
-After dragging in the main camera, profile, and the `TMP_Text` components (each TMP Button has a `TMP_Text` child component), you need to add an `On Click ()` event to each corresponding button, drag in the GameObject that is holding the `GraphicalStats.cs` script, and select the corresponding method for each button. As an example, if you name your button `RT Reflections Button` then the event should reference the `OnButtonClick_ToggleRTReflections()`, and so on. <br>
+After dragging in the main camera, profile, and the `TMP_Text` components (each TMP Button has a `TMP_Text` child component), you need to add an `On Click ()` event to each corresponding button, drag in the GameObject that is holding the `GraphicalStats.cs` script, and select the corresponding method for each button. As an example, if you name your button `RT Reflections Button` then the event should reference the `OnButtonClick_ToggleRTReflections()`, and so on. Lastly, you will need to have the Unity UI Event System in your hierarchy for on click events. <br>
 <br>
 <img src="https://github.com/Kfollen93/HDRP-Ray-Tracing/blob/main/Gif/Settings.PNG"/>
 ## Additional Information
